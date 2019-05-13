@@ -252,15 +252,13 @@
   /* Page */
   .page {
     position: relative;
-    padding: 3em;
-    background: white;
-    box-shadow: 0 10px 100px 0 rgba(34, 36, 38, 0.1);
-    transition: box-shadow 0.2s linear;
-  }
-  .page[style^="border-color"] {
     padding: 4.5em;
+    background: white;
+    box-shadow: 0 10px 100px 0 rgba(34, 36, 38, 0.3);
+    transition: box-shadow 0.2s linear;
+    border-color: rgb(60, 60, 200);
   }
-  .page[style^="border-color"]:before {
+  .page:before {
     content: " ";
     display: block;
     position: absolute;
@@ -276,15 +274,14 @@
   }
   @media only screen {
     .page:hover {
-      box-shadow: 0 10px 100px 0 rgba(34, 36, 38, 0.3);
+      box-shadow: 0 10px 100px 0 rgba(34, 36, 38, 0.5);
     }
   }
   @media only screen and (max-width: 767px) {
-    .page,
-    .page[style^="border-color"] {
+    .page {
       padding: 0;
     }
-    .page[style^="border-color"]:before {
+    .page:before {
       display: none;
     }
   }
@@ -522,7 +519,7 @@
     border-top: 1px solid rgba(222, 222, 222, 1);
   }
   .divider.fat {
-    border-top: 0.3571428571428571em solid rgba(10, 10, 10, 1);
+    border-top: 0.3em solid rgb(60, 60, 200);
     width: 33%;
   }
   
