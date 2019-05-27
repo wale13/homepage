@@ -80,7 +80,7 @@
     margin: 0 0 1em 0;
   }
   section {
-    padding: 1em 0;
+    padding: 0.4em 0;
   }
   p {
     margin: 0 0 1em;
@@ -230,22 +230,22 @@
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     article {
       width: 723px;
-      margin-top: calc((100% - 723px) / 2);
-      margin-bottom: calc((100% - 723px) / 2);
+      margin-top: calc((100% - 723px) / 3);
+      margin-bottom: calc((100% - 723px) / 3);
     }
   }
   @media only screen and (min-width: 992px) and (max-width: 1199px) {
     article {
       width: 933px;
-      margin-top: calc((100% - 933px) / 2);
-      margin-bottom: calc((100% - 933px) / 2);
+      margin-top: calc((100% - 933px) / 3);
+      margin-bottom: calc((100% - 933px) / 3);
     }
   }
   @media only screen and (min-width: 1200px) {
     article {
       width: 1127px;
-      margin-top: calc((100% - 1127px) / 2);
-      margin-bottom: calc((100% - 1127px) / 2);
+      margin-top: calc((100% - 1127px) / 3);
+      margin-bottom: calc((100% - 1127px) / 3);
     }
   }
   
@@ -346,6 +346,7 @@
   .grid > .column:not(.row) {
     padding-top: 1rem;
     padding-bottom: 1rem;
+    margin-left: 2rem;
   }
   .grid > .row > .column {
     margin-top: 0;
