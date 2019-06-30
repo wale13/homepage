@@ -585,6 +585,9 @@
   .contacts li a.facebook:hover {
     color: #3b5998;
   }
+  .contacts li a.linkedin:hover {
+    color: #0077B5;
+  }
   .contacts li a.github:hover {
     color: dimgrey;
   }
